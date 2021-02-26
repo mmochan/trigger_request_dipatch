@@ -1,0 +1,10 @@
+name: trigger-remote
+on: [workflow_dispatch]
+
+jobs:
+  trigger_remote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+        run: |
+          echo "I've been triggered remotely"
