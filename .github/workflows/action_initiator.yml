@@ -1,4 +1,4 @@
-name: trigger-remote
+name: Action Initiator
 on: [workflow_dispatch, repository_dispatch]
 
 jobs:
